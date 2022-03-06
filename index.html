@@ -5,12 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Shana Solutions</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <script src='js/main.js'></script>
-    <script src='js/font-awesome.js'></script>
+	<link rel="stylesheet" href="css/main.css">
+	<script src='js/font-awesome.js'></script>
 </head>
-<body>
-    <nav>
+<body style="height: 2000px;">
+	<nav>
         <div class="logo">Shana <span class="logo-clr">Solutions</span></div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
@@ -24,60 +23,65 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-
+	
     <div class="slider">
-
-        <div class="myslider fade" style="display: block;">
-            <div class="txt">
-                <h1>Image 1</h1>
-                <p>Web Development <br> Subscribe to Shana solutions For more videos</p>
-            </div>
-            <img src="img/1.jpg" style="width: 100%; height: 100%;" alt="">
-        </div>
-
-        <div class="myslider fade">
-            <div class="txt">
-                <h1>Image 2</h1>
-                <p>Web Development <br> Subscribe to Shana solutions For more videos</p>
-            </div>
-            <img src="img/2.jpg" style="width: 100%; height: 100%;" alt="">
-        </div>
-
-        <div class="myslider fade">
-            <div class="txt">
-                <h1>Image 3</h1>
-                <p>Web Development <br> Subscribe to Shana solutions For more videos</p>
-            </div>
-            <img src="img/3.jpg" style="width: 100%; height: 100%;" alt="">
-        </div>
-
-        <div class="myslider fade">
-            <div class="txt">
-                <h1>Image 4</h1>
-                <p>Web Development <br> Subscribe to Shana solutions For more videos</p>
-            </div>
-            <img src="img/4.jpg" style="width: 100%; height: 100%;" alt="">
-        </div>
-
-        <div class="myslider fade">
-            <div class="txt">
-                <h1>Image 5</h1>
-                <p>Web Development <br> Subscribe to Shana solutions For more videos</p>
-            </div>
-            <img src="img/5.jpg" style="width: 100%; height: 100%;" alt="">
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-        <a class="next" onclick="plusSlides(1)">&#10095</a>
-
-        <div class="dotsbox" style="text-align: center;">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
-
-    </div>
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 1</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img src="img/1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 2</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img src="img/2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 3</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img src="img/3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 4</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img src="img/4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 5</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img src="img/5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+<script src="js/main.js"></script>
 </body>
 </html>
+
+
